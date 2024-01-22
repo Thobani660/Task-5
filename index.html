@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>
+                student form
+            </title>
+            <style>
+                .bdy{
+                    background-color: antiquewhite;
+                }
+
+                .li1{
+                    width: 400px;
+                    height: 400px;
+                    background-color: aqua;
+                    border-radius: 10px;
+                    padding: 20px;
+                    border-collapse:inherit;
+                    border-bottom-style:groove;
+                    border-top-style: unset;
+                }
+                .li1:hover{
+                    width: 430px;
+                    height: 430px;
+                    background-color: rgb(34, 202, 202);
+                    border-radius: 10px;
+                    padding: 20px;
+                    border-collapse:inherit;
+                    border-bottom-style:groove;
+                    border-top-style: unset;
+                }
+
+                .li2{
+                    width: 250px;
+                    height: 250px;
+                    background-color: aqua;
+                    border-radius: 10px;
+                    padding: 23px;
+                    border-bottom-style:groove;
+                }
+                .li2:hover{
+                    width: 260px;
+                    height: 260px;
+                    background-color:  rgb(34, 202, 202);
+                    border-radius: 10px;
+                    padding: 23px;
+                    border-bottom-style:groove;
+                }
+
+                .table{
+                    background-color: aqua;
+                }
+
+                .tbl{
+                    background-color: beige;
+                    margin-left: 600px;
+                }
+
+                .tbl2{
+                    background-color: bisque;
+                    margin-left: 600px;
+                }
+
+                .p1{
+                    margin-left: 600px;
+                }
+
+                .h1{
+                    margin-left: 600px;
+                }
+
+                .btn{
+                    margin-left: 900px;
+                    width: 60px;
+                    background-color: aqua;
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                }
+
+                .btn:hover{
+                    margin-left: 900px;
+                    width: 65px;
+                    background-color: antiquewhite;
+                    border-radius: 15px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                }
+
+                .h5{
+                    margin-left: 600px;
+                }
+
+                input{
+                     border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                    background-color: transparent;
+                }
+
+                input:hover {
+                    background-color: antiquewhite;
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                }
+
+                option {
+                    border: 1px solid gray;
+                }
+
+                .radio {
+                    border-radius: groove;
+                }
+                #butin{
+                    width: 250px;
+                    height: 250px;
+                    background-color: aqua;
+                    border-radius: 10px;
+                    padding: 23px;
+                    border-bottom-style:groove;
+                    display:none;
+                    margin-left: 400px;
+                    z-index: 2px;
+                }
+                .Strims{
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                    background-color: transparent;
+                }
+                .provinc{
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                    background-color: transparent;
+                }
+                .town{
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                    background-color: transparent;
+                }
+                .sports{
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                    background-color: transparent;
+                }
+                .fuculty{
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                    background-color: transparent;
+                }
+                .radio{
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                    margin-bottom: 15px;
+                    border-right-style:hidden;
+                    border-left-style:hidden ;
+                    border-top-style: hidden;
+                    border-bottom-style:3px solid black;
+                    background-color: transparent;
+                }
+
+            </style>
+    </head>
+
+    <body class="bdy">
+       
+<div id="d1">
+    
+
+    <h1 class="h1">Student Application Form</h1>
+
+    <h3 class="p1"> 
+        <p>I <input type="text" placeholder="your name..">  
+         i aggree that all my confidential
+        <br> information are correct and they can be
+        <br> used when uploaded in this form.</p> 
+    </h3>    
+          
+    <table class="tbl">
+    <div>
+        <td>
+            <ul class="li1">
+                <h4>Name:<br><input type="text" placeholder="fullname.." id="name"><br>
+                     Surname:<br><input type="text" placeholder="Surname.." id="Surname"><br>
+                     Initials:<br><input type="text" placeholder="eg. Mr Tz" id="initials"><br>
+                     Date of birth:<br><input type="date" placeholder="18+" id="Age" width="100px"><br>
+                     ID number:<br><input type="text" placeholder="SA id numb.." id="ID"><br>
+                     Cellphone number:<br><input type="text" placeholder="+27-720-987-6712" id="Cellphone"><br>
+                     Email address:<br><input type="text" placeholder="zondit660@gmail.com" id="Email">
+                </h4>
+            </ul>
+        </td>
+    </div>
+
+   <div>
+     <td>
+        <ul class="li1">
+        <h4>Code of the Qualification:<br><input type="text" placeholder="BIM">
+        <br>Student number:<br><input type="text" id="studentnumber" placeholder="2200401"><br>
+        <form action="/action_page.php">
+        <label for="Provinces">Province:</label><br>
+          <select class="provinc" name="Provinces" id="Provinces">
+                <option value="kzn">KwaZulu-Natal</option>
+                <option value="gb">Gauteng</option>
+                <option value="li">Limpompo</option>
+                <option value="Mp">Mpumalanga</option>
+                <option value="EC">Eastern Cape</option>
+                <option value="NW">North West</option>
+                <option value="FS">Free State</option>
+                <option value="FS">FNorthen cape</option>
+                <option value="FS">Free State</option>
+          </select>
+          </form>
+        <br>
+        <form action="/action_page.php">
+            <label  for="cars">Towns:</label><br>
+            <select class="town" name="cars" id="provinces">
+            <option value="pmb">uMgungundlovu</option>
+            <option value="mk">UMkhanyakude</option>
+            <option value="th">uThukela</option>
+            <option value="zulu">Zululand</option>
+            <option value="Harry">Harry Gwala</option>
+            <option value="dbn">eThekwini</option>
+            <option value="juba">Amajuba</option>
+            </select>   
+            <br>
+            <h4>Home address:<br>
+                <input type="text" id="homddress" placeholder="3190 Imbali unit 14">
+                <br> Alternate number:<br>
+            <input type="text" id="Alternatenumber" placeholder="+27-849-337-4643">
+            </h4>
+        </form>
+    </div>
+
+     </table> 
+
+
+    <div>
+        <table class="tbl">
+            <td> <ul class="li1">
+            <h4> High School Details</h4>
+            <h4>School Name:<br><input type="text" id="Schoolname" placeholder="Indumiso">
+            <form action="/action_page.php">
+            <label for="Strims">
+            <br>Strims:<br></label>
+            <select class="Strims" name="Strims" id="Strims">
+            <option value="Science"> Science</option>
+            <option value="General">General</option>
+            <option value="EGD">EGD</option>
+            <option value="Computer">Computer</option>
+            <option value="Commerce">Commerce</option>
+            </select>
+            
+           <h4>Highest Grade passed:<br>
+            <input type="text" id="HighestGrade" placeholder="Matric">
+              <br>year In:<br>
+              <input type="text" id="yearin" placeholder="2015">
+              <br>year Out:<br>
+              <input type="text" id="yearout" placeholder="2019">
+              <br>Exam number:<br>
+              <input type="text" id="examnumber" placeholder="330046768973">
+            </h4>
+            <br>
+            </td>
+    </div>
+
+<div>
+    <td>
+        <ul class="li1">
+            <h4>Tertiary Details</h4>
+            <h4>Name of the Qualification:<br>
+            <input type="text" id="Qualification" placeholder="bussiness information management">
+            <br>Student number:<br><input type="text" id="studnumber" placeholder="2200401"><br>                
+           
+           
+            <form action="/action_page.php">  
+                <label for="fuculties">Fuculties:</label><br>
+                <select class="fuculty" name="fuculty" id="fuculty">
+                    <option value="teaching"> Faculty of Education</option>
+                    <option value="Med"> Faculty of Medicine</option>
+                    <option value="health">Faculty of Health Sciences</option>
+                    <option value="enge">Faculty of engeneering Sciences</option>
+                    <option value="humanities">Faculty of Humanities</option>
+                    <option value="Law">Faculty of Law</option>
+                    <option value="Science"> Faculty of Science</option>
+              </select><br>
+            </form>
+               <form action="/action_page.php">
+                    <label for="sports">Sports:</label><br>
+                    <select class="sports" name="sports" id="sports">
+                            <option value="socccer">Soccer</option>
+                            <option value="rugby">Rugby</option>
+                            <option value="ball">BasketBall</option>
+                            <option value="honey">Hockey</option>
+                            <option value="Cricket">Cricket</option>
+                            <option value="olympics">Olympics</option>
+                            <option value="smim">Swimming</option>
+                    </select>
+                    <br>
+                    <h4>School address:<br>
+                        <input type="text" placeholder="dut Imbali">
+                        <br>Fuculty number:<br>
+                        <input type="text" placeholder="+27345467689">
+                    </h4>
+                </form>
+           </h4>
+        </ul>
+    </td>
+</div>
+     </table> 
+          
+<div class="master">
+    <table class="tbl2">
+            <div>
+
+                <td>
+                    <ul class="li2">
+                        <h4>
+                            <form> Status:
+                                <br><input class="radio"  onclick="status(this.value)" type="radio" id="html" name="question1" value="Single">
+                                <label for="html">Single</label><br/>
+                                <input onclick="status(this.value)"  type="radio" id="css" name="question1" value="Married" style="background-color: transparent;">
+                                <label for="html">Married</label><br/>
+                                <input onclick="status(this.value)" type="radio" id="http" name="question1" value="Divorced">
+                                <label  for="http">Divorced</label>
+                            </form>
+                        </h4>
+                    </ul>
+                </td>
+                
+            </div>
+
+            <div>
+                <td>
+                <ul class="li2">
+                    <h4>
+                        <form> Gender:<br>
+                            <input onclick="gender(this.value)" type="radio" id="radio" name="question2" value="Male">
+                            <label  for="html">Male</label><br/>
+                            <input onclick="gender(this.value)" type="radio" id="radios" name="question2" value="Female">
+                            <label  for="html">Female</label><br/>
+                            <input onclick="gender(this.value)" type="radio" id="rad" name="question2" value="Both">
+                            <label  for="http">Both</label>
+                        </form>
+                    </h4>
+                </ul>
+                </td>
+            </div>
+
+            <div>
+                <td>    
+                    <ul class="li2">
+                        <form>
+                            <h4> employment :<br>
+                                <input onclick="employment(this.value)" type="radio" id="radi" name="question3" value="Unemployd">
+                                <label  for="html">Unemployd</label><br/>
+                                <input onclick="employment(this.value)" type="radio" id="radioo" name="question3" value="Employed">
+                                <label for="html">Employed</label><br/>
+                                <input onclick="employment(this.value)" type="radio" id="radioos" name="question3" value="parttime">
+                                <label for="http">part time Job</label>
+                            </h4>
+                        </form>
+                    </ul>
+                </td>
+            </div>
+    </table>
+</div>
+    
+
+    <h5 class="h5">thank you for filling the form you will recieve an email after submitting.</h5>
+    <button  class="btn" onclick="now()">submit </button>
+
+
+
+    <div  id="butin">
+            <h1 >
+                YOUR FORM HAVE BEEN SUBMITTED SUCCESSFULLY
+            </h1>
+            <p><h5>
+                For more information you can check your emails.<br>
+                thank you
+            </h5></p>
+    </div>
+            
+    
+
+    <script src="./index.js"></script>
+    </body>
+</html>
+
